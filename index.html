@@ -1,19 +1,23 @@
 <!DOCTYPE html> 
 <html>
     <head>
-
+        <title>HTML session</title>
     </head>
     <body>
        <!-- Heding Tags -->
-        <h1>Hello world</h1>
+       <section>
+         <h1>Hello world</h1>
+        <hr/>
         <h2>Hello world</h2>
         <h3>Hello world</h3>
         <h4>Hello world</h4>
         <h5>Hello world</h5>
         <h6>Hello world</h6>
+       </section>
+       
        <!-- End of Heading Tags -->
        <!-- Paragrah Tag -->
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sit modi impedit labore quaerat placeat culpa. Maxime atque officia in! Omnis non expedita vero in illo dolore error eveniet accusamus?</p>
+       <p>Lorem ipsum dolor, <span>sit</span> <b>amet</b> <strong>consectetur</strong>  <i>adipisicing</i> <em>elit</em>. Excepturi sit modi impedit labore quaerat placeat culpa. Maxime atque officia in! Omnis non expedita vero in illo dolore error eveniet accusamus?</p>
        
        <!-- Image Tag -->
        <img src="https://th.thgim.com/news/cities/chennai/kuu4b4/article37389974.ece/ALTERNATES/FREE_660/WhatsApp-Image-2021-11-08-at-81926-PMjpeg">
@@ -25,6 +29,8 @@
        <a href="https://www.facebook.com/?nocaa=1">
            <img src="assets/images/facebook.png" alt="">
        </a>
+
+       <a href="blog.html">click here to go to blog page</a>
 
        <!-- Lists -->
        <ul>
@@ -61,7 +67,37 @@
        </table>
 <!-- Form -->
        <form>
-           <input type="text" placeholder="Email address or phone number" />
+           <label>Enter your name</label>
+           <input type="text"/>
+           <br/>
+            <br/>
+             <br/>
+             <label>Enter your email</label>
+           <input type="email">
+           <label>Enter your password</label>
+           <input type="passowrd">
+           <label>Enter your mobile number</label>
+           <input type="tel" placeholder="555-555-5555">
+        
+           <br/>
+           <label>Enter your gender</label>
+           <input type="radio" name="radio">
+           <label>Male</label>
+           <input type="radio" name="radio">
+           <label>Female</label>
+           <input type="radio" name="radio">
+           <label>Others</label>
+           <!-- checkbox -->
+           <label>Enter your intersts</label>
+           <input type="checkbox">
+           <label>Programming</label>
+           <input type="checkbox">
+           <label>Sports</label>
+           <input type="checkbox">
+           <label>movies </label>
+            <label>Enter your queiries </label>
+           <textarea cols="30" rows="10"></textarea>
+              <input type="submit">
        </form>
     </body>
 
